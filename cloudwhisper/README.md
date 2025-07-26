@@ -2,9 +2,8 @@
 
 CloudWhisper is an AI-powered CLI tool that helps you manage AWS infrastructure and optimize cloud costs through natural language interactions.
 
-![CloudWhisper](cloudwhisper/cloudwhisper.jpg)
 <p align="center">
-  <img src="cloudwhisper/cloudwhisper.jpg" alt="CloudWhisper" width="600"/>
+  <img src="/cloudwhisper/cloudwhisper.jpg" alt="CloudWhisper" width="600"/>
 </p>
 
 
