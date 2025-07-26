@@ -14,6 +14,15 @@ CloudWhisper is an AI-powered CLI tool that helps you manage AWS infrastructure 
 ```bash
 pip install -e .
 ```
+## Configuration
+
+Set your AWS credentials and OpenAI API key:
+```bash
+export AWS_ACCESS_KEY_ID=your_access_key
+export AWS_SECRET_ACCESS_KEY=your_secret_key
+export AWS_DEFAULT_REGION=us-east-1
+export OPENAI_API_KEY=your_openai_key
+```
 
 ## Usage
 
@@ -35,15 +44,6 @@ cloudwhisper optimize
 cloudwhisper optimize --service ec2
 ```
 
-## Configuration
-
-Set your AWS credentials and OpenAI API key:
-```bash
-export AWS_ACCESS_KEY_ID=your_access_key
-export AWS_SECRET_ACCESS_KEY=your_secret_key
-export AWS_DEFAULT_REGION=us-east-1
-export OPENAI_API_KEY=your_openai_key
-```
 
 ## Requirements
 
